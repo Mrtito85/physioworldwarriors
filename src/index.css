@@ -433,7 +433,19 @@ button {
 }
 
 .founder-location {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.founder-intro {
+  margin: 1rem 0 1.5rem 0;
+  font-style: italic;
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 1rem;
+  border-radius: var(--border-radius-sm);
+  border-left: 3px solid var(--primary-color);
 }
 
 .founder-skills {

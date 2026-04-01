@@ -31,7 +31,7 @@ const About = () => {
           
           <div className="founder-card glass-panel text-center">
             <div className="founder-img-wrapper">
-              <img src="/images/bisma.jpg" alt="Bisma Qazi" className="founder-img" />
+              <img src="/images/Founder%20Bisma.png" alt="Bisma Qazi" className="founder-img" />
             </div>
             <h3>Bisma Qazi</h3>
             <p className="founder-title">
@@ -41,6 +41,11 @@ const About = () => {
             <p className="founder-location text-light">
               Quetta, Baluchistan, Pakistan
             </p>
+            <div className="founder-intro">
+              <p>
+                "Empowering you with complete wellness right where you are - whether at your Home, Educational institution, or an Office."
+              </p>
+            </div>
             <p className="founder-skills">
               Community Health Educator • Holistic Health Practitioner • 
               Physical Education Specialist • Entrepreneurship
