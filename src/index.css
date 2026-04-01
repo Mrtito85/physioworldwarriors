@@ -752,6 +752,35 @@ button {
   opacity: 0.7;
 }
 
+/* WhatsApp Float Button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(37, 211, 102, 0.4);
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-float .whatsapp-icon {
+  font-size: 32px;
+}
+
+.whatsapp-float:hover {
+  background-color: #128c7e;
+  transform: translateY(-5px) scale(1.05);
+  color: white;
+  box-shadow: 0 6px 14px rgba(37, 211, 102, 0.6);
+}
+
 /* Responsive Design */
 @media (max-width: 992px) {
   .about-grid, .schools-banner, .footer-container {
@@ -790,5 +819,16 @@ button {
   
   .section {
     padding: 4rem 0;
+  }
+  
+  .whatsapp-float {
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .whatsapp-float .whatsapp-icon {
+    font-size: 26px;
   }
 }

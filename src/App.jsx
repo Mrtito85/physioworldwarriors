@@ -6,6 +6,7 @@ import Services from './components/Services';
 import WhyChooseUs from './components/WhyChooseUs';
 import ForSchools from './components/ForSchools';
 import Footer from './components/Footer';
+import WhatsAppButton from './components/WhatsAppButton';
 import './index.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <ForSchools />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }
